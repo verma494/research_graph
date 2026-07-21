@@ -1,0 +1,21 @@
+# Environments & Secrets
+.env
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data (DO NOT UPLOAD RAW PDFs OR DATABASES)
+data/
+*.db
+*.jsonl
+*.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS Files
+.DS_Store
+Thumbs.db
