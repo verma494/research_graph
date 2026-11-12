@@ -252,8 +252,3 @@ To maximize responsiveness while optimizing OpenAI API token usage, this system 
 1. **Agentic NLP Interface (`/api/chat`):** Used for open-ended, complex research questions requiring multi-tool synthesis, step-by-step reasoning, and vector search.
 2. **Direct Entity Interface (`/api/explore`):** High-speed, deterministic REST endpoints (`/institutions`, `/authors`, `/topics`, `/papers`) executing pre-compiled Cypher queries in milliseconds without invoking LLM tokens.
 
----
-
-## 🛡 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
